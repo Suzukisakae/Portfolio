@@ -7,6 +7,11 @@
   font-family: "Heebo", sans-serif;
 }
 
+::selection {
+  background-color: #303f9f;
+  color: #fff;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -308,6 +313,17 @@ footer p {
   width: 100%;
 }
 
+.page-title button {
+  padding: 10px 30px;
+  background: #303f9f;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
 .content {
   padding: 30px 148px 60px;
   display: flex;
@@ -401,6 +417,9 @@ footer p {
 .content .container h2 {
   margin-bottom: 20px;
   font-size: 30px;
+}
+.content .container h2 span {
+  color: #303f9f;
 }
 
 .content .container .about > p {
